@@ -1,0 +1,108 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size: 0.625em;
+}
+
+body {
+     color: #000;
+     font-size: 1.5em;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+}
+
+.errormsg {
+  width: 100%;
+  height: 900px;
+  margin: 0 auto;
+  background: url(../images/empty-page.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+.errormsg h1 a {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 46px;
+  color: #FFFFFF;
+}
+
+.errormsg h1 {
+  margin: 0 0 100px 120px;
+  padding-top: 25px;
+  position:relative;
+}
+
+.errormsg h2 {
+  font-weight: 300;
+  font-size: 2.2em;
+  color: #ffffff;
+  margin: 10px 150px 0;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.ctabutton1 a {
+  font-weight: 600;
+  font-size: 1.8em;
+  color: #043049;
+  background-color: #f9e42e;
+  border-radius: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.ctabutton1 a:hover {
+  font-weight: 600;
+  font-size: 1.8em;
+  color: #043049;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.ctabutton1{
+    display: flex;
+    justify-content: center;
+}
+
+.largetext {
+  font-size: 5em;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}

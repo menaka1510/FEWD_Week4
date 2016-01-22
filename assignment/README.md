@@ -35,7 +35,7 @@ The team from Relaxr is back...again! They want their page to be more interactiv
 - Select the appropriate DOM elements with CSS selectors upon a user's click using the ```$.click()``` handler
 - If a user clicks "Read More" on the primary column:
 
-  - have the text in the ```<p>``` tag slide down along with a "Read Less" link in the blog post using  ```$.slideDown()``` and ```$.show()```
+  - have the text in the ```<p>``` tag slide down along with a "Read Less" link in the blog post using  ```$.slideDown()``` and ```$.show()```1
   - hide the "Read More" link using ```$.hide()```
 
 - If a user clicks "Read Less" on the primary column:
