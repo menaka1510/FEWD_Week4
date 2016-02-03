@@ -141,7 +141,7 @@ header {
 }
 
 .blogposts img {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   width: 700px;
   height: auto;
 }
@@ -169,6 +169,22 @@ header {
   display: flex;
   justify-content: flex-end;
   padding-bottom: 30px;
+}
+.blogposts .para1 a, .blogposts .para2 a {
+  color: #043049;
+  font-size: 1em;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+}
+.morecontent span {
+ display: none;
+}
+
+.morelink{
+  display: block;
 }
 
 /*Right Column*/
@@ -206,7 +222,7 @@ aside {
   padding-bottom: 50px;
 }
 
-.categories p {
+.categories p{
   font-size: 1.4em;
   line-height: 1.2;
   color: #043049;
